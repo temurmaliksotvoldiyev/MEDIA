@@ -310,8 +310,7 @@ background: rgba(0, 0, 0, 0);
      section{
         display: flex;
         flex-direction: column-reverse;
-      margin-left: 250px;
-
+margin: auto;
     }
     .img-2{
         font-size: 100px;
@@ -320,6 +319,9 @@ background: rgba(0, 0, 0, 0);
     .header-2{
         display: none;
    
+    }
+    .container{
+text-align: center;
     }
    
     .header{
@@ -336,30 +338,34 @@ margin-top: 100px;
         margin: auto;
     }
     .rasmcha{
-        margin-left:300px ;
+        margin: auto;
     }
     .soz{
         margin-top: 100px;
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
     .soz-1{
     margin: auto; 
     }
     .rasmchi-1{
-        margin-left:300px ;
-
+margin: auto;
     }
     .odamlar-ram{
         margin-left: 100px;
         width: 100%;
     }
     .h22{
-      margin-left: 120px;
+        margin: auto;
       margin-top: 100px;
     }
     .sozchalar{
         width: 10px;
+    }
+    .div-div
+    {
+justify-content: center;
     }
     .sozchalar{
         width: 170%;
@@ -379,7 +385,9 @@ margin-top: 100px;
 .footer-div{
 width: 100%;
 }
-
+.opacha-1{
+    margin: auto;
+}
 
    }
    @media only screen and (max-width: 700px) {
